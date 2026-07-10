@@ -1,0 +1,28 @@
+{
+  "name": "ember-theme-theme",
+  "displayName": "Ember Theme",
+  "description": "A cozy dark theme with warm coral accents, soft contrast, and muted syntax colors that stay easy on the eyes through long sessions.",
+  "version": "0.0.4",
+  "publisher": "DonPedroTV",
+  "icon": "assets/ember-theme.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DonPedroTV/EmberThemeVsCode.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ember Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ember-theme-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+.git/**
+.gitattributes
+*.vsix
+node_modules/**
