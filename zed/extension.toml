@@ -1,0 +1,7 @@
+id = "ember-theme"
+name = "Ember Theme"
+version = "0.0.1"
+schema_version = 1
+authors = ["DonPedroTV"]
+description = "A cozy dark theme with warm coral accents, soft contrast, and muted syntax colors."
+repository = "https://github.com/DonPedroTV/EmberThemeVsCode"
