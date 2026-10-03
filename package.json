@@ -2,7 +2,7 @@
   "name": "ember-theme-theme",
   "displayName": "Ember Theme",
   "description": "A cozy dark theme with warm coral accents, soft contrast, and muted syntax colors that stay easy on the eyes through long sessions.",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "publisher": "DonPedroTV",
   "icon": "assets/ember-theme.png",
   "license": "MIT",

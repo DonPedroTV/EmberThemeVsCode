@@ -145,7 +145,7 @@
   "tokenColors": [
     {
       "scope": ["comment", "punctuation.definition.comment"],
-      "settings": { "foreground": "#787f78", "fontStyle": "italic" }
+      "settings": { "foreground": "#636363" }
     },
     {
       "scope": ["string", "constant.other.symbol"],
@@ -153,7 +153,7 @@
     },
     {
       "scope": ["constant.numeric", "constant.language"],
-      "settings": { "foreground": "#c792ea" }
+      "settings": { "foreground": "#96d9f6" }
     },
     {
       "scope": ["keyword", "storage", "storage.type"],
@@ -165,7 +165,7 @@
     },
     {
       "scope": ["entity.name.type", "support.class", "support.type"],
-      "settings": { "foreground": "#ceb478" }
+      "settings": { "foreground": "#e290f0" }
     },
     {
       "scope": ["variable.parameter", "variable.language"],
@@ -173,50 +173,39 @@
     },
     {
       "scope": ["keyword.operator", "punctuation"],
-      "settings": { "foreground": "#999f97" }
+      "settings": { "foreground": "#737373" }
     },
     {
       "scope": ["invalid"],
       "settings": { "foreground": "#ffffff", "background": "#b94b45" }
     },
     {
-      "scope": [
-        "entity.name.tag.yaml",
-        "entity.name.tag property.yaml",
-        "support.type.property-name.yaml",
-        "variable.other.key.yaml"
-      ],
-      "settings": { "foreground": "#78b9d6" }
+      "scope": ["entity.name.tag.yaml", "entity.name.tag property.yaml", "support.type.property-name.yaml", "variable.other.key.yaml", "meta.mapping.key.yaml string.unquoted.plain.out.yaml"],
+      "settings": { "foreground": "#ffa685" }
     },
     {
-      "scope": [
-        "string.quoted.single.yaml",
-        "string.quoted.double.yaml",
-        "string.unquoted.plain.out.yaml"
-      ],
-      "settings": { "foreground": "#b9d978" }
+      "scope": ["punctuation.separator.key-value.yaml", "punctuation.separator.key-value.mapping.yaml", "punctuation.definition.mapping.yaml", "keyword.control.flow.yaml", "punctuation.definition.block.sequence.item.yaml"],
+      "settings": { "foreground": "#737373" }
     },
     {
-      "scope": ["constant.numeric.yaml", "constant.language.yaml"],
-      "settings": { "foreground": "#c792ea" }
+      "scope": ["string.quoted.single.yaml", "string.quoted.double.yaml", "string.unquoted.plain.out.yaml", "string.unquoted.block.yaml"],
+      "settings": { "foreground": "#8cda94" }
     },
     {
-      "scope": [
-        "keyword.control.flow.yaml",
-        "punctuation.definition.block.sequence.item.yaml"
-      ],
-      "settings": { "foreground": "#91c0cf" }
+      "scope": ["constant.numeric.yaml", "constant.numeric.integer.yaml", "constant.numeric.float.yaml", "constant.language.yaml", "constant.language.boolean.yaml", "constant.language.null.yaml"],
+      "settings": { "foreground": "#96d9f6" }
     },
     {
-      "scope": [
-        "punctuation.separator.key-value.yaml",
-        "punctuation.definition.mapping.yaml"
-      ],
-      "settings": { "foreground": "#6f7882" }
+      "scope": ["punctuation.definition.sequence.begin.yaml", "punctuation.definition.sequence.end.yaml", "punctuation.definition.mapping.begin.yaml", "punctuation.definition.mapping.end.yaml"],
+      "settings": { "foreground": "#ffde80" }
+    },
+    {
+      "scope": ["support.type.property-name.json", "support.type.property-name.json punctuation"],
+      "settings": { "foreground": "#ffa685" }
     },
     {
       "scope": ["comment.line.number-sign.yaml"],
-      "settings": { "foreground": "#697482", "fontStyle": "italic" }
+      "settings": { "foreground": "#636363" }
     },
     {
       "scope": [
@@ -244,7 +233,7 @@
         "support.class.php",
         "support.type.php"
       ],
-      "settings": { "foreground": "#83c5b2" }
+      "settings": { "foreground": "#e290f0" }
     },
     {
       "scope": [
@@ -256,7 +245,7 @@
     },
     {
       "scope": ["constant.numeric.php"],
-      "settings": { "foreground": "#c792ea" }
+      "settings": { "foreground": "#96d9f6" }
     },
     {
       "scope": ["string.quoted.php", "string.unquoted.php"],
@@ -287,7 +276,7 @@
         "support.class.js",
         "support.class.ts"
       ],
-      "settings": { "foreground": "#ceb478" }
+      "settings": { "foreground": "#e290f0" }
     },
     {
       "scope": ["keyword.control.js", "keyword.control.ts", "storage.type.js", "storage.type.ts"],
